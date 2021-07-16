@@ -7,7 +7,7 @@
 
   &:hover,
   &:focus {
-    fill: var(--accent-color);
+    fill: $accentColor;
   }
 
   &__icon {

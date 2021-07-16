@@ -1,8 +1,8 @@
 .btn-alt {
   padding: 6px 22px;
   display: block;
-  color: var(--primary-text-color);
-  background-color: var(--tertiary-background-color);
+  color: $primaryTextColor;
+  background-color: $tertiaryBackgroundColor;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -16,6 +16,6 @@
   &:hover,
   &:focus {
     color: #ffffff;
-    background-color: var(--accent-color);
+    background-color: $accentColor;
   }
 }

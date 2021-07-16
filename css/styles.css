@@ -94,7 +94,7 @@
 }
 
 .features-text {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
 } */
 
 /* what we do section */
@@ -144,7 +144,7 @@
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient( var(--tertiary-background-color), var(--tertiary-background-color));
+  background-image: linear-gradient( $tertiaryBackgroundColor, $tertiaryBackgroundColor);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,7 +224,7 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
 } */
 
 /* clients */
@@ -319,7 +319,7 @@
 }
 
 .close-btn:hover, .close-btn:focus {
-  fill: var(--accent-color);
+  fill: $accentColor;
 }
 
 .close-icon {
@@ -332,7 +332,7 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   margin-bottom: 12px;
 }
 
@@ -354,11 +354,11 @@
 }
 
 .form-input:focus {
-  border-color: var(--accent-color);
+  border-color: $accentColor;
 }
 
 .form-input:focus+.input-icon {
-  fill: var(--accent-color);
+  fill: $accentColor;
 }
 
 .form-input-text {
@@ -393,7 +393,7 @@
 }
 
 .form-text:focus {
-  border-color: var(--accent-color);
+  border-color: $accentColor;
 }
 
 .form-text::placeholder {
@@ -410,7 +410,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   margin-bottom: 30px;
 }
 
@@ -438,7 +438,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .check-icon {
@@ -446,7 +446,7 @@
 }
 
 .input-check:checked+.input-check-text span {
-  background-color: var(--accent-color);
+  background-color: $accentColor;
   border: none;
 }
 

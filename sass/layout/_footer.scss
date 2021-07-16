@@ -4,10 +4,7 @@
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: linear-gradient(
-    var(--secondary-background-color),
-    var(--secondary-background-color)
-  );
+  background-image: linear-gradient($secondaryBackgroundColor, $secondaryBackgroundColor);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,7 +34,7 @@
 
   &__links .link {
     display: block;
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -50,7 +47,7 @@
 
   &__links .link:hover,
   &__links .link:focus {
-    color: var(--accent-color);
+    color: $accentColor;
   }
 
   &__join {

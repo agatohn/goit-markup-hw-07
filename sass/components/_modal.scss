@@ -25,7 +25,7 @@
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
-    color: var(--primary-text-color);
+    color: $primaryTextColor;
     margin-bottom: 12px;
   }
 
@@ -47,11 +47,11 @@
   }
 
   &__form-input:focus {
-    border-color: var(--accent-color);
+    border-color: $accentColor;
   }
 
   &__form-input:focus + &__input-icon {
-    fill: var(--accent-color);
+    fill: $accentColor;
   }
 
   &__form-input-text {
@@ -86,7 +86,7 @@
   }
 
   &__form-text:focus {
-    border-color: var(--accent-color);
+    border-color: $accentColor;
   }
 
   &__form-text::placeholder {
@@ -103,7 +103,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
     margin-bottom: 30px;
   }
 
@@ -131,7 +131,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
-    color: var(--accent-color);
+    color: $accentColor;
   }
 
   &__check-icon {
@@ -139,7 +139,7 @@
   }
 
   &__input-check:checked + &__input-check-text span {
-    background-color: var(--accent-color);
+    background-color: $accentColor;
     border: none;
   }
 

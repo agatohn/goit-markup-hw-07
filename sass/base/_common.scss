@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
+  background-color: $primaryBackgroundColor;
+  color: $primaryTextColor;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
