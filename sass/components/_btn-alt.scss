@@ -12,10 +12,10 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
 
-.btn-alt:hover,
-.btn-alt:focus {
-  color: #ffffff;
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+  }
 }

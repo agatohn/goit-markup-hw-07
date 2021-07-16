@@ -84,8 +84,7 @@ body {
   border-radius: 4px;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: #188ce8;
 }
 
@@ -105,8 +104,7 @@ body {
   cursor: pointer;
 }
 
-.btn-alt:hover,
-.btn-alt:focus {
+.btn-alt:hover, .btn-alt:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -175,7 +173,7 @@ body {
   fill: #ffffff;
 }
 
-.social__logo-block {
+.social {
   display: flex;
 }
 
@@ -194,13 +192,11 @@ body {
   margin-right: 0px;
 }
 
-.social__link-item:hover,
-.social__link-item:focus {
+.social__link-item:hover, .social__link-item:focus {
   background-color: #2196f3;
 }
 
-.social__link-item:hover,
-.social__link-item:focus {
+.social__link-item:hover, .social__link-item:focus {
   fill: #ffffff;
 }
 
@@ -213,8 +209,7 @@ body {
   background: #ffffff;
 }
 
-.portfolio-card:hover,
-.portfolio-card:focus {
+.portfolio-card:hover, .portfolio-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -336,7 +331,7 @@ body {
   border-color: var(--accent-color);
 }
 
-.modal__form-input:focus + .input-icon {
+.modal__form-input:focus + .modal__input-icon {
   fill: var(--accent-color);
 }
 
@@ -424,7 +419,7 @@ body {
   fill: #ffffff;
 }
 
-.modal__input-check:checked + .input-check-text span {
+.modal__input-check:checked + .modal__input-check-text span {
   background-color: var(--accent-color);
   border: none;
 }
@@ -441,12 +436,11 @@ body {
   top: 8px;
 }
 
-.close-btn:hover,
-.close-btn:focus {
+.close-btn:hover, .close-btn:focus {
   fill: var(--accent-color);
 }
 
-.close-btn-icon {
+.close-btn__icon {
   width: 11px;
   height: 11px;
 }
@@ -458,7 +452,7 @@ body {
   text-align: center;
 }
 
-.team-card__item {
+.team-card {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -709,7 +703,7 @@ body {
   color: var(--accent-color);
 }
 
-.join {
+.footer__join {
   font-weight: bold;
   line-height: 1.21;
   text-transform: uppercase;
@@ -718,16 +712,16 @@ body {
   margin-left: 70px;
 }
 
-.join__link-block {
+.footer__join-link-block {
   margin-top: 20px;
 }
 
-.join__link-item {
+.footer__join-link-item {
   background: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
 
-.mailing__positioning {
+.footer__mailing {
   margin-top: 12px;
   margin-left: 93px;
 }
@@ -850,13 +844,11 @@ body {
   margin-right: 0px;
 }
 
-.client__logo-item:hover,
-.client__logo-item:focus {
+.client__logo-item:hover, .client__logo-item:focus {
   border-color: #2196f3;
 }
 
-.client__logo-item:hover,
-.client__logo-item:focus {
+.client__logo-item:hover, .client__logo-item:focus {
   fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

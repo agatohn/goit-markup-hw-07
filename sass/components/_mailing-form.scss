@@ -3,37 +3,37 @@
   line-height: 1.21;
   text-transform: uppercase;
   color: #ffffff;
-}
 
-.mailing__text {
-  margin-bottom: 20px;
-}
+  &__text {
+    margin-bottom: 20px;
+  }
 
-.mailing__form {
-  display: flex;
-}
+  &__form {
+    display: flex;
+  }
 
-.mailing__input {
-  width: 358px;
-  height: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: none;
-  padding-left: 16px;
-  outline: none;
-}
+  &__input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: none;
+    padding-left: 16px;
+    outline: none;
+  }
 
-.mailing__btn {
-  display: flex;
-  padding-left: 29px;
-  margin-left: 12px;
-}
+  &__btn {
+    display: flex;
+    padding-left: 29px;
+    margin-left: 12px;
+  }
 
-.mailing__logo {
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  display: block;
-  fill: #ffffff;
+  &__logo {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    display: block;
+    fill: #ffffff;
+  }
 }

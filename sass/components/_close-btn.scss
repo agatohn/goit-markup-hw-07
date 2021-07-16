@@ -4,14 +4,14 @@
   background-color: transparent;
   right: 8px;
   top: 8px;
-}
 
-.close-btn:hover,
-.close-btn:focus {
-  fill: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 
-.close-btn-icon {
-  width: 11px;
-  height: 11px;
+  &__icon {
+    width: 11px;
+    height: 11px;
+  }
 }
