@@ -12,22 +12,22 @@
 
 /* третий цвет фона и цвет неактивных кнопок портфолио #F5F4FA */
 
-:root {
+/* :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --accent-color: #2196f3;
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
   --tertiary-background-color: #f5f4fa;
-}
+} */
 
 /* header styles */
 
 /* Hat or Hero styles */
 
-.hero {
+/* .hero {
   color: #ffffff;
-  /* background: var(--secondary-background-color); */
+  
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -53,7 +53,7 @@
 .hero-btn {
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* features */
 
@@ -62,7 +62,7 @@
   padding-bottom: 94px;
 } */
 
-.features-list {
+/* .features-list {
   display: flex;
   margin-left: -30px;
 }
@@ -95,28 +95,24 @@
 
 .features-text {
   color: var(--secondary-text-color);
-}
+} */
 
 /* what we do section */
 
-.working {
+/* .working {
   padding-bottom: 94px;
 }
 
-.working-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
+.working__title {
   margin-bottom: 50px;
 }
 
-.working-list {
+.working__list {
   display: flex;
   margin-left: -30px;
 }
 
-.working-item {
+.working__item {
   flex-basis: calc(100% / 3) -30px;
   margin-left: 30px;
   position: relative;
@@ -124,7 +120,7 @@
   text-align: center;
 }
 
-.working-overtext {
+.working__overtext {
   width: 370px;
   height: 70px;
   position: absolute;
@@ -139,14 +135,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* our team */
 
-.team {
-  /* background-color: var(--tertiary-background-color); */
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
+/* .team {
+ 
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -158,10 +152,6 @@
 
 .team-title {
   margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
 }
 
 .team-list {
@@ -179,7 +169,7 @@
 
 .team-text-item {
   margin-top: 30px;
-  /* margin-bottom: 30px; */
+  
 }
 
 .team-logo-block {
@@ -235,16 +225,12 @@
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
-}
+} */
 
 /* clients */
 
-.client-title {
+/* .client-title {
   margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
 }
 
 .client-logo-block {
@@ -279,7 +265,7 @@
 
 .client-logo-item:hover, .client-logo-item:focus {
   fill: #2196f3;
-}
+} */
 
 /* footer */
 
